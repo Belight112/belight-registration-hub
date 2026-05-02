@@ -1,7 +1,7 @@
 import { useState, FormEvent } from "react";
 import { Loader2 } from "lucide-react";
 
-const WEBHOOK_URL = "https://YOUR-N8N-WEBHOOK-URL-HERE";
+const WEBHOOK_URL = "https://belight112.app.n8n.cloud/webhook/student-form";
 
 type Status = { type: "idle" | "success" | "error"; message?: string };
 
