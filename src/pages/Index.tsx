@@ -1,7 +1,7 @@
 import { useState, FormEvent } from "react";
 import { Loader2 } from "lucide-react";
 
-const WEBHOOK_URL = "https://blight.app.n8n.cloud/webhook-test/belight";
+const WEBHOOK_URL = "https://blight.app.n8n.cloud/webhook/belight";
 
 type Status = { type: "idle" | "success" | "error"; message?: string };
 
